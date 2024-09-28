@@ -1,0 +1,80 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 106.25%;
+    quotes: "â€œ" "â€";
+}
+body {
+    color: rgba(0, 0, 0, .8);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
+}
+
+/* Top Navigation */
+.navbar {
+    position: fixed;
+    height: 44px;
+    max-height: 44px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(245, 245, 247, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #0071e3; /* Apple blue hover effect */
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+/* Main Content */
+.main-content {
+    padding-top: 44px;
+}
+
+
+
+/* Footer */
+footer {
+    background: #f5f5f7;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6e6e73;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+}

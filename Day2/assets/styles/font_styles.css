@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* Custom fonts name */
+    src: url('../fonts/sf-pro-display_regular.woff2') format('woff2'); /* Path to the fonts file */
+    font-weight: normal; /* Specify the weight, if applicable */
+    font-style: normal; /* Specify the style (normal, italic, etc.) */
+}

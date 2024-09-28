@@ -1,0 +1,50 @@
+.promote-home-page-section {
+    height: 44px;
+    max-height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    text-color: #1d1d1f;
+}
+.home-page-iphone-section {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.home-page-iphone-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-page-iphone-section img {
+    height: 580px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Promotional Section */
+.promo-section {
+    padding: 20px;
+    background-color: #f2f2f7;
+    text-align: center; /* Center-aligns all text within this section */
+    margin: 20px 0;
+}
+
+.promo-section h2 {
+    font-size: 1.8rem;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+}
+
+.promo-section-paragraph {
+    font-size: 1rem;
+    color: #6e6e73;
+    line-height: 1.5;
+    text-align: left; /* Centers the paragraph text */
+    margin: 0 auto; /* Centers the div block itself if it has a set width */
+    max-width: 800px; /* Optional: restricts the width of the paragraph for better readability */
+}
